@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    - sudo apt-get update
+
+test:
+  override:
+    - grep html index.html
